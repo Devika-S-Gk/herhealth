@@ -1,0 +1,1037 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HerHealth – Women's Reproductive Health</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+<!-- ░░░ CURTAIN TRANSITION ░░░ -->
+<div id="curtain" class="curtain">
+  <div class="curtain-left"></div>
+  <div class="curtain-right"></div>
+  <div class="curtain-logo"><i class="fa-solid fa-heart-pulse"></i><span>HerHealth</span></div>
+</div>
+
+<!-- ░░░ LANDING ░░░ -->
+<div id="page-landing" class="page active">
+  <div class="landing-orbs">
+    <div class="orb orb1"></div><div class="orb orb2"></div>
+    <div class="orb orb3"></div><div class="orb orb4"></div>
+  </div>
+  <div class="landing-grain"></div>
+
+  <nav class="land-nav">
+    <div class="logo-mark">
+      <div class="logo-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+      <span>HerHealth</span>
+    </div>
+    <div class="nav-ctas">
+      <button class="ghost-btn" onclick="navigate('page-login')">Sign In</button>
+      <button class="cta-pill" onclick="navigate('page-register')">Begin Your Journey <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+  </nav>
+
+  <div class="land-hero">
+    <div class="land-hero-left">
+      <div class="eyebrow-tag">
+        <span class="pulse-dot"></span> Complete Women's Health Platform
+      </div>
+      <h1 class="hero-h1">
+        She Cares.<br/>
+        <em>We Guide.</em>
+      </h1>
+      <p class="hero-para">From first period to postpartum — HerHealth walks beside every woman with early PCOS detection, pregnancy tracking, and postpartum recovery support in 3 languages.</p>
+      <div class="hero-actions">
+        <button class="cta-pill large" onclick="navigate('page-register')">
+          <i class="fa-solid fa-seedling"></i> Start Free
+        </button>
+        <button class="ghost-btn large" onclick="navigate('page-login')">
+          <i class="fa-solid fa-right-to-bracket"></i> Login
+        </button>
+      </div>
+      <div class="hero-badges">
+        <div class="badge-pill"><i class="fa-solid fa-shield-halved"></i> Private & Secure</div>
+        <div class="badge-pill"><i class="fa-solid fa-globe"></i> EN · ML · HI</div>
+        <div class="badge-pill"><i class="fa-solid fa-users"></i> ASHA Support</div>
+      </div>
+    </div>
+    <div class="land-hero-right">
+      <div class="hero-ring hero-ring1"></div>
+      <div class="hero-ring hero-ring2"></div>
+      <div class="center-icon-wrap">
+        <div class="center-icon-glow"></div>
+        <i class="fa-solid fa-venus center-venus"></i>
+      </div>
+      <div class="float-card fc1 slide-in-card">
+        <i class="fa-solid fa-circle-check"></i>
+        <div><b>PCOS Risk Score</b><small>Low Risk · 4/20</small></div>
+      </div>
+      <div class="float-card fc2 slide-in-card">
+        <i class="fa-solid fa-baby"></i>
+        <div><b>Week 22 🌽</b><small>Corn-sized baby!</small></div>
+      </div>
+      <div class="float-card fc3 slide-in-card">
+        <i class="fa-solid fa-face-smile"></i>
+        <div><b>Mood: Good 🙂</b><small>Postpartum tracker</small></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="feature-strip">
+    <div class="feat-pill"><i class="fa-solid fa-droplet"></i><span>PCOS & Period Tracker</span></div>
+    <div class="feat-divider">◆</div>
+    <div class="feat-pill"><i class="fa-solid fa-baby-carriage"></i><span>Pregnancy Guidance</span></div>
+    <div class="feat-divider">◆</div>
+    <div class="feat-pill"><i class="fa-solid fa-hand-holding-heart"></i><span>Postpartum Recovery</span></div>
+    <div class="feat-divider">◆</div>
+    <div class="feat-pill"><i class="fa-solid fa-stethoscope"></i><span>Dr. Consultancy</span></div>
+    <div class="feat-divider">◆</div>
+    <div class="feat-pill"><i class="fa-solid fa-users-gear"></i><span>ASHA Worker Portal</span></div>
+  </div>
+
+  <div class="land-cards-section">
+    <h2 class="section-title-landing">Everything she needs, <em>in one place</em></h2>
+    <div class="land-cards">
+      <div class="land-card lc-pink">
+        <div class="lc-num">01</div>
+        <i class="fa-solid fa-droplet lc-icon"></i>
+        <h3>Menstrual & PCOS</h3>
+        <p>Cycle tracking, irregular detection, PCOS risk score, diet & workout plans</p>
+      </div>
+      <div class="land-card lc-purple">
+        <div class="lc-num">02</div>
+        <i class="fa-solid fa-baby-carriage lc-icon"></i>
+        <h3>Pregnancy Tracker</h3>
+        <p>Week-by-week guide, baby size, kick counter, vaccination schedule</p>
+      </div>
+      <div class="land-card lc-rose">
+        <div class="lc-num">03</div>
+        <i class="fa-solid fa-hand-holding-heart lc-icon"></i>
+        <h3>Postpartum Care</h3>
+        <p>Recovery guide, breastfeeding tips, mood tracker, baby milestones</p>
+      </div>
+      <div class="land-card lc-teal">
+        <div class="lc-num">04</div>
+        <i class="fa-solid fa-user-doctor lc-icon"></i>
+        <h3>Doctor Consultancy</h3>
+        <p>Book appointments, describe symptoms, get referral guidance</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ░░░ LOGIN ░░░ -->
+<div id="page-login" class="page">
+  <div class="auth-split">
+    <div class="auth-panel auth-panel-art">
+      <div class="ap-orb ap-orb1"></div>
+      <div class="ap-orb ap-orb2"></div>
+      <div class="ap-art-inner">
+        <i class="fa-solid fa-heart-pulse ap-logo-icon"></i>
+        <h2 class="ap-title">HerHealth</h2>
+        <p class="ap-sub">Your health companion, always by your side</p>
+        <div class="ap-facts">
+          <div class="ap-fact"><i class="fa-solid fa-check-circle"></i>Early PCOS Detection</div>
+          <div class="ap-fact"><i class="fa-solid fa-check-circle"></i>Multilingual Support</div>
+          <div class="ap-fact"><i class="fa-solid fa-check-circle"></i>ASHA Worker Portal</div>
+          <div class="ap-fact"><i class="fa-solid fa-check-circle"></i>Private & Encrypted</div>
+        </div>
+      </div>
+    </div>
+    <div class="auth-panel auth-panel-form">
+      <div class="auth-form-inner">
+        <button class="back-link" onclick="navigate('page-landing')"><i class="fa-solid fa-arrow-left"></i> Home</button>
+        <h2 class="af-title">Welcome Back <span class="wave">👋</span></h2>
+        <p class="af-sub">Sign in to continue your health journey</p>
+
+        <div class="role-selector">
+          <button class="role-btn active" id="role-user-login" onclick="setLoginRole('patient',this)">
+            <i class="fa-solid fa-user"></i> Patient
+          </button>
+          <button class="role-btn" id="role-asha-login" onclick="setLoginRole('asha',this)">
+            <i class="fa-solid fa-stethoscope"></i> ASHA Worker
+          </button>
+        </div>
+
+        <div class="field-group">
+          <label><i class="fa-solid fa-envelope"></i> Email Address</label>
+          <input type="email" id="login-email" placeholder="you@example.com"/>
+        </div>
+        <div class="field-group">
+          <label><i class="fa-solid fa-lock"></i> Password</label>
+          <div class="pw-field">
+            <input type="password" id="login-pwd" placeholder="Your password"/>
+            <button class="pw-toggle" onclick="togglePwd('login-pwd',this)"><i class="fa-solid fa-eye"></i></button>
+          </div>
+        </div>
+        <div class="form-row-inline">
+          <label class="checkbox-lbl"><input type="checkbox"/> Remember me</label>
+          <a class="forgot-link" href="#">Forgot password?</a>
+        </div>
+        <button class="submit-btn" onclick="doLogin()"><i class="fa-solid fa-right-to-bracket"></i> Sign In</button>
+        <p class="switch-line">No account? <a href="#" onclick="navigate('page-register')">Register here</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ░░░ REGISTER ░░░ -->
+<div id="page-register" class="page">
+  <div class="auth-split">
+    <div class="auth-panel auth-panel-art">
+      <div class="ap-orb ap-orb1"></div>
+      <div class="ap-orb ap-orb2"></div>
+      <div class="ap-art-inner">
+        <i class="fa-solid fa-seedling ap-logo-icon"></i>
+        <h2 class="ap-title">Join HerHealth</h2>
+        <p class="ap-sub">Your journey to better health starts today</p>
+        <div class="ap-facts">
+          <div class="ap-fact"><i class="fa-solid fa-shield-halved"></i>Your data is private</div>
+          <div class="ap-fact"><i class="fa-solid fa-bell"></i>Smart health reminders</div>
+          <div class="ap-fact"><i class="fa-solid fa-chart-line"></i>Track your progress</div>
+          <div class="ap-fact"><i class="fa-solid fa-globe"></i>3 language support</div>
+        </div>
+      </div>
+    </div>
+    <div class="auth-panel auth-panel-form scrollable">
+      <div class="auth-form-inner">
+        <button class="back-link" onclick="navigate('page-landing')"><i class="fa-solid fa-arrow-left"></i> Home</button>
+        <h2 class="af-title">Create Account <span>🌸</span></h2>
+        <p class="af-sub">Fill in your details to get personalized care</p>
+
+        <div class="role-selector">
+          <button class="role-btn active" onclick="setRegRole('patient',this)">
+            <i class="fa-solid fa-user"></i> Patient
+          </button>
+          <button class="role-btn" onclick="setRegRole('asha',this)">
+            <i class="fa-solid fa-stethoscope"></i> ASHA Worker
+          </button>
+        </div>
+
+        <!-- Patient name shown by default; changed for ASHA -->
+        <div class="field-group">
+          <label id="reg-name-label"><i class="fa-solid fa-user"></i> <span id="reg-name-lbl-text">Patient Full Name</span></label>
+          <input type="text" id="reg-name" placeholder="Your full name"/>
+        </div>
+        <div class="field-row">
+          <div class="field-group">
+            <label><i class="fa-solid fa-calendar"></i> Age</label>
+            <input type="number" id="reg-age" placeholder="Age" min="10" max="60"/>
+          </div>
+          <div class="field-group" id="reg-height-group">
+            <label><i class="fa-solid fa-ruler-vertical"></i> Height (cm)</label>
+            <input type="number" id="reg-height" placeholder="e.g. 160"/>
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field-group" id="reg-weight-group">
+            <label><i class="fa-solid fa-weight-scale"></i> Weight (kg)</label>
+            <input type="number" id="reg-weight" placeholder="e.g. 58"/>
+          </div>
+          <div class="field-group">
+            <label><i class="fa-solid fa-phone"></i> Mobile</label>
+            <input type="tel" id="reg-phone" placeholder="+91 XXXXXXXXXX"/>
+          </div>
+        </div>
+        <div class="field-group">
+          <label><i class="fa-solid fa-envelope"></i> Email</label>
+          <input type="email" id="reg-email" placeholder="you@example.com"/>
+        </div>
+        <div class="field-group">
+          <label><i class="fa-solid fa-map-marker-alt"></i> Village / District</label>
+          <input type="text" id="reg-location" placeholder="Your location"/>
+        </div>
+        <div class="field-group" id="reg-stage-group">
+          <label><i class="fa-solid fa-venus"></i> Current Health Stage</label>
+          <select id="reg-stage">
+            <option value="">Select your stage</option>
+            <option value="menstrual">Menstrual / PCOS concern</option>
+            <option value="pregnant">Pregnant</option>
+            <option value="postpartum">Postpartum (after delivery)</option>
+          </select>
+        </div>
+        <!-- ASHA-only field -->
+        <div class="field-group" id="asha-id-group" style="display:none">
+          <label><i class="fa-solid fa-id-badge"></i> ASHA Worker ID</label>
+          <input type="text" id="reg-asha-id" placeholder="e.g. KL-ASHA-2024-001"/>
+        </div>
+        <div class="field-group">
+          <label><i class="fa-solid fa-lock"></i> Password</label>
+          <div class="pw-field">
+            <input type="password" id="reg-pwd" placeholder="Min 6 characters"/>
+            <button class="pw-toggle" onclick="togglePwd('reg-pwd',this)"><i class="fa-solid fa-eye"></i></button>
+          </div>
+        </div>
+        <button class="submit-btn" onclick="doRegister()"><i class="fa-solid fa-user-plus"></i> Create Account</button>
+        <p class="switch-line">Already have an account? <a href="#" onclick="navigate('page-login')">Sign in</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ░░░ MAIN APP ░░░ -->
+<div id="page-app" class="page">
+
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sb-logo">
+      <div class="sb-logo-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+      <span>HerHealth</span>
+    </div>
+
+    <div class="sb-user-card" id="sb-user-card">
+      <div class="sb-avatar" id="sb-avatar">P</div>
+      <div class="sb-user-info">
+        <div class="sb-uname" id="sb-uname">—</div>
+        <div class="sb-urole" id="sb-urole">—</div>
+      </div>
+    </div>
+
+    <div class="lang-row">
+      <button class="lang-chip active" id="lc-en" onclick="setLang('en',this)">EN</button>
+      <button class="lang-chip" id="lc-ml" onclick="setLang('ml',this)">ML</button>
+      <button class="lang-chip" id="lc-hi" onclick="setLang('hi',this)">HI</button>
+    </div>
+
+    <nav class="sb-nav">
+      <a class="sb-link active" href="#" onclick="showSection('dashboard',this)">
+        <i class="fa-solid fa-house-chimney"></i><span data-key="nav_dashboard">Dashboard</span>
+      </a>
+
+      <div class="sb-group-label">Module 1 · Menstrual</div>
+      <a class="sb-link" href="#" onclick="showSection('period',this)">
+        <i class="fa-solid fa-droplet"></i><span data-key="nav_period">Period Tracker</span>
+      </a>
+      <a class="sb-link" href="#" onclick="showSection('pcos',this)">
+        <i class="fa-solid fa-microscope"></i><span data-key="nav_pcos">PCOS Risk Check</span>
+      </a>
+      <a class="sb-link" href="#" onclick="showSection('diet',this)">
+        <i class="fa-solid fa-salad"></i><span data-key="nav_diet">Diet & Workout</span>
+      </a>
+      <a class="sb-link" href="#" onclick="showSection('bmi',this)">
+        <i class="fa-solid fa-weight-scale"></i><span>BMI Calculator</span>
+      </a>
+
+      <div class="sb-group-label">Module 2 · Pregnancy</div>
+      <a class="sb-link" href="#" onclick="showSection('pregnancy',this)">
+        <i class="fa-solid fa-baby-carriage"></i><span data-key="nav_pregnancy">Pregnancy Tracker</span>
+      </a>
+      <a class="sb-link" href="#" onclick="showSection('kick',this)">
+        <i class="fa-solid fa-baby"></i><span data-key="nav_kick">Kick Counter</span>
+      </a>
+
+      <div class="sb-group-label">Module 3 · Postpartum</div>
+      <a class="sb-link" href="#" onclick="showSection('postpartum',this)">
+        <i class="fa-solid fa-hand-holding-heart"></i><span data-key="nav_postpartum">Postpartum Care</span>
+      </a>
+      <a class="sb-link" href="#" onclick="showSection('mood',this)">
+        <i class="fa-solid fa-face-smile"></i><span data-key="nav_mood">Mood Tracker</span>
+      </a>
+
+      <div class="sb-group-label">Consultancy</div>
+      <a class="sb-link" href="#" onclick="showSection('doctor',this)">
+        <i class="fa-solid fa-user-doctor"></i><span>Doctor Consultancy</span>
+      </a>
+
+      <div class="sb-group-label asha-only" id="asha-group" style="display:none">ASHA Worker</div>
+      <a class="sb-link asha-only" id="asha-sb-link" href="#" style="display:none" onclick="showSection('asha',this)">
+        <i class="fa-solid fa-users-gear"></i><span>Patient Monitor</span>
+      </a>
+    </nav>
+
+    <button class="sb-logout" onclick="doLogout()">
+      <i class="fa-solid fa-right-from-bracket"></i><span data-key="logout">Logout</span>
+    </button>
+  </aside>
+
+  <!-- Mobile topbar -->
+  <div class="mob-bar">
+    <button onclick="toggleSb()"><i class="fa-solid fa-bars"></i></button>
+    <span><i class="fa-solid fa-heart-pulse"></i> HerHealth</span>
+    <button onclick="doLogout()"><i class="fa-solid fa-right-from-bracket"></i></button>
+  </div>
+
+  <!-- Content -->
+  <main class="app-main">
+
+    <!-- ══ DASHBOARD ══ -->
+    <section id="sec-dashboard" class="sec active">
+      <div class="sec-head">
+        <h2 data-key="dash_title">My Dashboard</h2>
+        <p data-key="dash_sub">Your health overview at a glance</p>
+      </div>
+      <div class="dash-grid">
+        <div class="dcard welcome-dcard">
+          <div>
+            <h3>Good Day, <span id="dash-name">Friend</span> 🌸</h3>
+            <p>Stage: <strong id="dash-stage">—</strong></p>
+            <p class="dc-date" id="dash-date"></p>
+          </div>
+          <div class="welcome-flare"><i class="fa-solid fa-sun"></i></div>
+        </div>
+        <div class="dcard alert-dcard" id="dash-alert-card">
+          <i class="fa-solid fa-triangle-exclamation"></i>
+          <div><strong>Health Alert</strong><p id="dash-alert-txt">Track your period to get personalized alerts.</p></div>
+        </div>
+        <div class="dcard mini-stat ms-pink">
+          <i class="fa-solid fa-droplet"></i>
+          <div><strong>Last Period</strong><span id="stat-period">Not set</span></div>
+        </div>
+        <div class="dcard mini-stat ms-purple">
+          <i class="fa-solid fa-microscope"></i>
+          <div><strong>PCOS Risk</strong><span id="stat-pcos">Not assessed</span></div>
+        </div>
+        <div class="dcard mini-stat ms-rose">
+          <i class="fa-solid fa-weight-scale"></i>
+          <div><strong>BMI</strong><span id="stat-bmi">Not calculated</span></div>
+        </div>
+        <div class="dcard mini-stat ms-teal">
+          <i class="fa-solid fa-droplet"></i>
+          <div><strong>Water Today</strong><span id="stat-water">0 / 8 glasses</span></div>
+        </div>
+        <!-- Water tracker card -->
+        <div class="dcard water-dcard">
+          <h4><i class="fa-solid fa-droplet"></i> Daily Water Intake</h4>
+          <div class="water-track" id="water-track"></div>
+          <div class="water-btns">
+            <button class="wbtn wbtn-add" onclick="changeWater(1)"><i class="fa-solid fa-plus"></i> Add</button>
+            <button class="wbtn wbtn-rem" onclick="changeWater(-1)"><i class="fa-solid fa-minus"></i> Remove</button>
+          </div>
+        </div>
+        <!-- Reminders card -->
+        <div class="dcard remind-dcard">
+          <h4><i class="fa-solid fa-bell"></i> Today's Reminders</h4>
+          <ul class="remind-list">
+            <li><span class="rl-dot pink"></span> Iron & Folic Acid supplement</li>
+            <li><span class="rl-dot purple"></span> 30 min brisk walk</li>
+            <li><span class="rl-dot teal"></span> Drink 8 glasses of water</li>
+            <li><span class="rl-dot rose"></span> Sleep by 10 PM tonight</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ PERIOD TRACKER ══ -->
+    <section id="sec-period" class="sec">
+      <div class="sec-head">
+        <h2><i class="fa-solid fa-droplet ic-pink"></i> Period Tracker</h2>
+        <p>Track your menstrual cycle for better health insights</p>
+      </div>
+      <div class="form-panel">
+        <div class="field-row">
+          <div class="field-group">
+            <label><i class="fa-solid fa-calendar-day"></i> Last Period Start Date</label>
+            <input type="date" id="period-date"/>
+          </div>
+          <div class="field-group">
+            <label><i class="fa-solid fa-arrows-left-right"></i> Cycle Length (days)</label>
+            <input type="number" id="cycle-length" placeholder="e.g. 28" min="20" max="45"/>
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field-group">
+            <label><i class="fa-solid fa-hourglass"></i> Period Duration (days)</label>
+            <input type="number" id="period-duration" placeholder="e.g. 5" min="2" max="10"/>
+          </div>
+          <div class="field-group">
+            <label><i class="fa-solid fa-tint"></i> Flow Level</label>
+            <select id="flow-level">
+              <option value="">Select</option>
+              <option>Light</option><option>Moderate</option>
+              <option>Heavy</option><option>Very Heavy</option>
+            </select>
+          </div>
+        </div>
+        <div class="field-group">
+          <label><i class="fa-solid fa-face-sad-cry"></i> Pain Level: <span id="pain-label">0</span>/10</label>
+          <input type="range" id="pain-level" min="0" max="10" value="0" oninput="document.getElementById('pain-label').textContent=this.value" class="hh-range"/>
+        </div>
+        <div class="field-group">
+          <label><i class="fa-solid fa-notes-medical"></i> Symptoms</label>
+          <div class="chip-wrap" id="period-chips">
+            <span class="chip" onclick="toggleChip(this)">Cramping</span>
+            <span class="chip" onclick="toggleChip(this)">Bloating</span>
+            <span class="chip" onclick="toggleChip(this)">Headache</span>
+            <span class="chip" onclick="toggleChip(this)">Back pain</span>
+            <span class="chip" onclick="toggleChip(this)">Nausea</span>
+            <span class="chip" onclick="toggleChip(this)">Mood swings</span>
+            <span class="chip" onclick="toggleChip(this)">Fatigue</span>
+            <span class="chip" onclick="toggleChip(this)">Insomnia</span>
+          </div>
+        </div>
+        <button class="hh-btn" onclick="savePeriod()"><i class="fa-solid fa-floppy-disk"></i> Save Period Data</button>
+      </div>
+      <div class="result-panel" id="period-result" style="display:none"></div>
+    </section>
+
+    <!-- ══ PCOS RISK ══ -->
+    <section id="sec-pcos" class="sec">
+      <div class="sec-head">
+        <h2><i class="fa-solid fa-microscope ic-purple"></i> PCOS / PCOD Symptom Checker</h2>
+        <p>Select your symptoms below — the app will identify your stage: Early · Moderate · Severe</p>
+      </div>
+
+      <!-- Stage reference strip -->
+      <div class="stage-strip">
+        <div class="stage-badge sb-mild"><i class="fa-solid fa-seedling"></i> Mild / Early</div>
+        <div class="stage-arrow">→</div>
+        <div class="stage-badge sb-mod"><i class="fa-solid fa-triangle-exclamation"></i> Moderate</div>
+        <div class="stage-arrow">→</div>
+        <div class="stage-badge sb-sev"><i class="fa-solid fa-circle-exclamation"></i> Severe</div>
+      </div>
+
+      <div class="form-panel">
+        <h4 style="margin-bottom:1.2rem;color:var(--txt-m)"><i class="fa-solid fa-list-check"></i> Step 1 — Select all symptoms that apply to you</h4>
+
+        <!-- MENSTRUAL -->
+        <div class="sym-group">
+          <div class="sym-group-label"><i class="fa-solid fa-droplet"></i> Menstrual Cycle</div>
+          <div class="chip-wrap">
+            <span class="chip" onclick="toggleChip(this)" data-feat="menstrual" data-sev="1">Slightly irregular periods (cycles &gt;35 days)</span>
+            <span class="chip" onclick="toggleChip(this)" data-feat="menstrual" data-sev="2">Frequent missed periods (3–6 per year)</span>
+            <span class="chip" onclick="toggleChip(this)" data-feat="menstrual" data-sev="3">Very few or no periods (amenorrhea)</span>
+          </div>
+        </div>
+
+        <!-- OVULATION -->
+        <div class="sym-group">
+          <div class="sym-group-label"><i class="fa-solid fa-egg"></i> Ovulation</div>
+          <div class="chip-wrap">
+            <span class="chip" onclick="toggleChip(this)" data-feat="ovulation" data-sev="1">Irregular ovulation</span>
+            <span class="chip" onclick="toggleChip(this)" data-feat="ovulation" data-sev="2">Infrequent ovulation</span>
+            <span class="chip" onclick="toggleChip(this)" data-feat="ovulation" data-sev="3">Absent ovulation</span>
+          </div>
+        </div>
+
+        <!-- HAIR -->
+        <div class="sym-group">
+          <div class="sym-group-label"><i class="fa-solid fa-face-smile"></i> Excess Hair (Hirsutism)</div>
+          <div class="chip-wrap">
+            <span class="chip" onclick="toggleChip(this)" data-feat="hair" data-sev="1">Mild facial hair</span>
+            <span class="chip" onclick="toggleChip(this)" data-feat="hair" data-sev="2">Noticeable facial &amp; body hair</span>
+            <span class="chip" onclick="toggleChip(this)" data-feat="hair" data-sev="3">Thick, excessive male-pattern hair growth</span>
+          </div>
+        </div>
+
+        <!-- ACNE -->
+        <div class="sym-group">
+          <div class="sym-group-label"><i class="fa-solid fa-virus"></i> Acne</div>
+          <div class="chip-wrap">
+            <span class="chip" onclick="toggleChip(this)" data-feat="acne" data-sev="1">Occasional acne</span>
+            <span class="chip" onclick="toggleChip(this)" data-feat="acne" data-sev="2">Persistent acne</span>
+            <span class="chip" onclick="toggleChip(this)" data-feat="acne" data-sev="3">Severe, treatment-resistant acne</span>
+          </div>
+        </div>
+
+        <!-- HAIR THINNING -->
+        <div class="sym-group">
+          <div class="sym-group-label"><i class="fa-solid fa-head-side"></i> Hair Thinning (Scalp)</div>
+          <div class="chip-wrap">
+            <span class="chip" onclick="toggleChip(this)" data-feat="scalp" data-sev="1">Minimal thinning</span>
+            <span class="chip" onclick="toggleChip(this)" data-feat="scalp" data-sev="2">Noticeable thinning / hair fall</span>
+            <span class="chip" onclick="toggleChip(this)" data-feat="scalp" data-sev="3">Marked male-pattern baldness</span>
+          </div>
+        </div>
+
+        <!-- WEIGHT -->
+        <div class="sym-group">
+          <div class="sym-group-label"><i class="fa-solid fa-weight-scale"></i> Weight Changes</div>
+          <div class="chip-wrap">
+            <span class="chip" onclick="toggleChip(this)" data-feat="weight" data-sev="1">Mild weight gain</span>
+            <span class="chip" onclick="toggleChip(this)" data-feat="weight" data-sev="2">Abdominal weight gain</span>
+            <span class="chip" onclick="toggleChip(this)" data-feat="weight" data-sev="3">Obesity common</span>
+          </div>
+        </div>
+
+        <!-- INSULIN -->
+        <div class="sym-group">
+          <div class="sym-group-label"><i class="fa-solid fa-syringe"></i> Insulin Resistance</div>
+          <div class="chip-wrap">
+            <span class="chip" onclick="toggleChip(this)" data-feat="insulin" data-sev="1">May be mild or absent</span>
+            <span class="chip" onclick="toggleChip(this)" data-feat="insulin" data-sev="2">Clear insulin resistance signs</span>
+            <span class="chip" onclick="toggleChip(this)" data-feat="insulin" data-sev="3">High insulin resistance — risk of Type 2 diabetes</span>
+          </div>
+        </div>
+
+        <!-- DARK PATCHES -->
+        <div class="sym-group">
+          <div class="sym-group-label"><i class="fa-solid fa-circle-half-stroke"></i> Dark Skin Patches (Acanthosis Nigricans)</div>
+          <div class="chip-wrap">
+            <span class="chip" onclick="toggleChip(this)" data-feat="skin" data-sev="1">Usually absent</span>
+            <span class="chip" onclick="toggleChip(this)" data-feat="skin" data-sev="2">Mild patches (neck/armpits)</span>
+            <span class="chip" onclick="toggleChip(this)" data-feat="skin" data-sev="3">Prominent dark patches</span>
+          </div>
+        </div>
+
+        <!-- FERTILITY -->
+        <div class="sym-group">
+          <div class="sym-group-label"><i class="fa-solid fa-baby"></i> Fertility Impact</div>
+          <div class="chip-wrap">
+            <span class="chip" onclick="toggleChip(this)" data-feat="fertility" data-sev="1">Mild difficulty conceiving</span>
+            <span class="chip" onclick="toggleChip(this)" data-feat="fertility" data-sev="2">Reduced fertility</span>
+            <span class="chip" onclick="toggleChip(this)" data-feat="fertility" data-sev="3">Significant infertility without treatment</span>
+          </div>
+        </div>
+
+        <!-- OTHER -->
+        <div class="sym-group">
+          <div class="sym-group-label"><i class="fa-solid fa-plus-circle"></i> Other Symptoms</div>
+          <div class="chip-wrap">
+            <span class="chip" onclick="toggleChip(this)" data-feat="other" data-sev="1">Mood swings / anxiety</span>
+            <span class="chip" onclick="toggleChip(this)" data-feat="other" data-sev="1">Fatigue / low energy</span>
+            <span class="chip" onclick="toggleChip(this)" data-feat="other" data-sev="2">Sleep problems</span>
+            <span class="chip" onclick="toggleChip(this)" data-feat="other" data-sev="2">Pelvic pain or pressure</span>
+            <span class="chip" onclick="toggleChip(this)" data-feat="other" data-sev="3">Psychological impact / depression</span>
+          </div>
+        </div>
+
+        <!-- Additional questions -->
+        <div style="border-top:1px solid var(--brd);margin-top:1.5rem;padding-top:1.5rem">
+          <h4 style="margin-bottom:1rem;color:var(--txt-m)"><i class="fa-solid fa-clipboard-question"></i> Step 2 — A few more questions</h4>
+          <div class="field-row">
+            <div class="field-group">
+              <label><i class="fa-solid fa-dna"></i> Family history of PCOS or Diabetes?</label>
+              <select id="pcos-family">
+                <option value="0">No</option>
+                <option value="1">Diabetes in family</option>
+                <option value="2">PCOS in family</option>
+              </select>
+            </div>
+            <div class="field-group">
+              <label><i class="fa-solid fa-calendar"></i> Age group</label>
+              <select id="pcos-age">
+                <option value="0">Under 15</option>
+                <option value="1" selected>15–25 years</option>
+                <option value="1">26–35 years</option>
+                <option value="2">Above 35</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <button class="hh-btn" onclick="calcPCOS()"><i class="fa-solid fa-wand-magic-sparkles"></i> Analyse My Symptoms</button>
+      </div>
+
+      <!-- RESULT AREA -->
+      <div id="pcos-result" style="display:none"></div>
+
+      <!-- COMPARISON TABLE -->
+      <div class="sym-table-wrap">
+        <h4 class="sym-table-title"><i class="fa-solid fa-table"></i> PCOS Symptom Severity Comparison</h4>
+        <div class="sym-table-scroll">
+          <table class="sym-table">
+            <thead>
+              <tr>
+                <th>Feature</th>
+                <th class="col-mild">🌱 Mild / Early</th>
+                <th class="col-mod">⚠️ Moderate</th>
+                <th class="col-sev">🚨 Severe</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td><strong>Menstrual Cycle</strong></td><td>Slightly irregular (cycles &gt;35 days)</td><td>Frequent missed periods (3–6/year)</td><td>Very few or no periods (amenorrhea)</td></tr>
+              <tr><td><strong>Ovulation</strong></td><td>Irregular ovulation</td><td>Infrequent ovulation</td><td>Absent ovulation</td></tr>
+              <tr><td><strong>Excess Hair (Hirsutism)</strong></td><td>Mild facial hair</td><td>Noticeable facial &amp; body hair</td><td>Thick, excessive male-pattern hair</td></tr>
+              <tr><td><strong>Acne</strong></td><td>Occasional acne</td><td>Persistent acne</td><td>Severe, treatment-resistant acne</td></tr>
+              <tr><td><strong>Hair Thinning (Scalp)</strong></td><td>Minimal thinning</td><td>Noticeable thinning</td><td>Marked male-pattern baldness</td></tr>
+              <tr><td><strong>Weight Changes</strong></td><td>Mild weight gain</td><td>Abdominal weight gain</td><td>Obesity common</td></tr>
+              <tr><td><strong>Insulin Resistance</strong></td><td>Mild or absent</td><td>Clear insulin resistance</td><td>High — risk of Type 2 diabetes</td></tr>
+              <tr><td><strong>Dark Skin Patches</strong></td><td>Usually absent</td><td>Mild patches</td><td>Prominent dark patches</td></tr>
+              <tr><td><strong>Fertility Impact</strong></td><td>Mild difficulty conceiving</td><td>Reduced fertility</td><td>Significant infertility without treatment</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ DIET & WORKOUT ══ -->
+    <section id="sec-diet" class="sec">
+      <div class="sec-head">
+        <h2><i class="fa-solid fa-salad ic-green"></i> Diet & Workout Plans</h2>
+        <p>Personalized recommendations for hormonal health</p>
+      </div>
+      <div class="tab-bar">
+        <button class="tab-pill active" onclick="switchTab('tab-diet',this)"><i class="fa-solid fa-utensils"></i> Diet</button>
+        <button class="tab-pill" onclick="switchTab('tab-workout',this)"><i class="fa-solid fa-dumbbell"></i> Workout</button>
+        <button class="tab-pill" onclick="switchTab('tab-lifestyle',this)"><i class="fa-solid fa-leaf"></i> Lifestyle</button>
+      </div>
+      <div id="tab-diet" class="tab-body active">
+        <div class="info-grid">
+          <div class="icard ic-green"><div class="ic-badge">🌿</div><h4>Anti-Inflammatory</h4><ul><li>Turmeric milk (Haldi doodh)</li><li>Spinach, moringa leaves</li><li>Berries, pomegranate, amla</li><li>Flaxseeds, chia seeds</li></ul></div>
+          <div class="icard ic-pink"><div class="ic-badge">🌾</div><h4>Whole Grains & Fiber</h4><ul><li>Brown rice, millets (ragi, jowar)</li><li>Oats, quinoa</li><li>Whole wheat roti</li><li>Lentils and legumes (dal)</li></ul></div>
+          <div class="icard ic-purple"><div class="ic-badge">🚫</div><h4>Foods to Avoid</h4><ul><li>Refined sugar, sweets, maida</li><li>Processed / junk food</li><li>Excess dairy (for PCOS)</li><li>Excess salt, fried foods</li></ul></div>
+          <div class="icard ic-rose"><div class="ic-badge">💪</div><h4>Protein Sources</h4><ul><li>Eggs, tofu, paneer (low-fat)</li><li>Chickpeas, rajma, moong</li><li>Fish (sardines, mackerel)</li><li>Greek yogurt (unsweetened)</li></ul></div>
+        </div>
+      </div>
+      <div id="tab-workout" class="tab-body">
+        <div class="info-grid">
+          <div class="icard ic-pink"><div class="ic-badge">🚶</div><h4>Cardio (Daily)</h4><ul><li>Brisk walking – 30 mins</li><li>Cycling – 20 mins</li><li>Jumping jacks – 5 mins</li><li>Dancing / Zumba</li></ul></div>
+          <div class="icard ic-purple"><div class="ic-badge">🧘</div><h4>Yoga for PCOS</h4><ul><li>Butterfly pose (Baddha Konasana)</li><li>Child's pose (Balasana)</li><li>Cobra pose (Bhujangasana)</li><li>Supta Baddha Konasana</li></ul></div>
+          <div class="icard ic-green"><div class="ic-badge">🏋️</div><h4>Strength Training</h4><ul><li>Squats – 3×15 reps</li><li>Glute bridges – 3×15</li><li>Lunges – 2×12 each leg</li><li>Planks – 30 secs × 3</li></ul></div>
+          <div class="icard ic-teal"><div class="ic-badge">🌬️</div><h4>Breathing & Stress</h4><ul><li>Anulom-Vilom – 10 mins</li><li>Deep belly breathing</li><li>Meditation – 10 mins daily</li><li>Stress journal writing</li></ul></div>
+        </div>
+      </div>
+      <div id="tab-lifestyle" class="tab-body">
+        <div class="info-grid">
+          <div class="icard ic-purple"><div class="ic-badge">😴</div><h4>Sleep Hygiene</h4><ul><li>7–8 hours daily</li><li>Avoid screens after 9 PM</li><li>Consistent wake-up time</li><li>Cool, dark room preferred</li></ul></div>
+          <div class="icard ic-teal"><div class="ic-badge">💧</div><h4>Hydration</h4><ul><li>8–10 glasses water daily</li><li>Spearmint / cinnamon tea</li><li>Avoid sugary drinks</li><li>Coconut water once a day</li></ul></div>
+          <div class="icard ic-rose"><div class="ic-badge">🩺</div><h4>When to See Doctor</h4><ul><li>Periods missed >3 months</li><li>Severe pelvic pain</li><li>Sudden / heavy hair loss</li><li>Difficulty getting pregnant</li></ul></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ BMI ══ -->
+    <section id="sec-bmi" class="sec">
+      <div class="sec-head">
+        <h2><i class="fa-solid fa-weight-scale ic-purple"></i> BMI Calculator</h2>
+        <p>Know your body mass index and understand what it means</p>
+      </div>
+      <div class="form-panel" style="max-width:480px">
+        <div class="field-row">
+          <div class="field-group">
+            <label><i class="fa-solid fa-ruler-vertical"></i> Height (cm)</label>
+            <input type="number" id="bmi-h" placeholder="e.g. 160"/>
+          </div>
+          <div class="field-group">
+            <label><i class="fa-solid fa-weight-scale"></i> Weight (kg)</label>
+            <input type="number" id="bmi-w" placeholder="e.g. 58"/>
+          </div>
+        </div>
+        <button class="hh-btn" onclick="calcBMI()"><i class="fa-solid fa-calculator"></i> Calculate BMI</button>
+        <div id="bmi-result" style="display:none"></div>
+      </div>
+    </section>
+
+    <!-- ══ PREGNANCY ══ -->
+    <section id="sec-pregnancy" class="sec">
+      <div class="sec-head">
+        <h2><i class="fa-solid fa-baby-carriage ic-pink"></i> Pregnancy Tracker</h2>
+        <p>Week-by-week guidance for a healthy pregnancy</p>
+      </div>
+      <div class="form-panel" style="max-width:560px">
+        <div class="field-row">
+          <div class="field-group">
+            <label><i class="fa-solid fa-calendar"></i> Last Menstrual Period (LMP)</label>
+            <input type="date" id="preg-lmp"/>
+          </div>
+          <div class="field-group">
+            <label><i class="fa-solid fa-weight-scale"></i> Current Weight (kg)</label>
+            <input type="number" id="preg-wt" placeholder="e.g. 65"/>
+          </div>
+        </div>
+        <button class="hh-btn" onclick="calcPregnancy()"><i class="fa-solid fa-magnifying-glass"></i> Show My Week</button>
+      </div>
+      <div id="preg-result" style="display:none">
+        <div class="week-hero">
+          <div class="week-bubble"><span id="pw-num">--</span><small>weeks</small></div>
+          <div class="week-details">
+            <h3 id="pw-title">Trimester</h3>
+            <div class="baby-fruit"><i class="fa-solid fa-seedling"></i> <span id="pw-fruit">—</span></div>
+            <p id="pw-desc">—</p>
+          </div>
+        </div>
+        <div class="preg-cards">
+          <div class="preg-crd pc-pink"><i class="fa-solid fa-apple-whole"></i><h4>Nutrition</h4><p id="pw-nutrition">—</p></div>
+          <div class="preg-crd pc-purple"><i class="fa-solid fa-syringe"></i><h4>Vaccination</h4><p id="pw-vaccine">—</p></div>
+          <div class="preg-crd pc-rose"><i class="fa-solid fa-triangle-exclamation"></i><h4>Warning Signs</h4><p>Bleeding, severe swelling, reduced movement — visit doctor immediately.</p></div>
+        </div>
+        <div class="bag-checklist">
+          <h4><i class="fa-solid fa-suitcase"></i> Hospital Bag Checklist</h4>
+          <div id="bag-items" class="bag-grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ KICK COUNTER ══ -->
+    <section id="sec-kick" class="sec">
+      <div class="sec-head">
+        <h2><i class="fa-solid fa-baby ic-pink"></i> Baby Kick Counter</h2>
+        <p>Aim for 10 kicks within 2 hours — a sign of a healthy baby</p>
+      </div>
+      <div class="kick-box">
+        <div class="kick-circle">
+          <div class="kick-num" id="kick-num">0</div>
+          <div class="kick-sub">kicks</div>
+          <div class="kick-timer" id="kick-timer">00:00</div>
+        </div>
+        <div class="kick-actions">
+          <button class="kick-main-btn" onclick="addKick()"><i class="fa-solid fa-baby"></i> Felt a Kick!</button>
+          <button class="kick-reset-btn" onclick="resetKick()"><i class="fa-solid fa-rotate"></i> Reset</button>
+        </div>
+        <div id="kick-msg" class="kick-msg" style="display:none"></div>
+        <p id="kick-log" class="kick-log"></p>
+      </div>
+    </section>
+
+    <!-- ══ POSTPARTUM ══ -->
+    <section id="sec-postpartum" class="sec">
+      <div class="sec-head">
+        <h2><i class="fa-solid fa-hand-holding-heart ic-rose"></i> Postpartum Care</h2>
+        <p>Recovery guidance after delivery — you're doing amazing</p>
+      </div>
+      <div class="field-group" style="max-width:300px;margin-bottom:1.5rem">
+        <label><i class="fa-solid fa-baby"></i> Delivery Type</label>
+        <select id="delivery-type" onchange="showRecovery()">
+          <option value="">Select delivery type</option>
+          <option value="normal">Normal Delivery</option>
+          <option value="csec">C-Section</option>
+        </select>
+      </div>
+      <div id="recovery-info" class="info-grid" style="display:none">
+        <div class="icard ic-pink" id="rc1"></div>
+        <div class="icard ic-purple" id="rc2"></div>
+        <div class="icard ic-green" id="rc3"></div>
+        <div class="icard ic-rose" id="rc4"></div>
+      </div>
+      <div class="info-grid" style="margin-top:1.5rem">
+        <div class="icard ic-teal"><div class="ic-badge">🤱</div><h4>Breastfeeding Tips</h4><ul><li>Nurse every 2–3 hours</li><li>Ensure proper latch</li><li>Drink 3L water daily</li><li>Eat methi, garlic, oats</li><li>Rest when baby sleeps</li></ul></div>
+        <div class="icard ic-pink"><div class="ic-badge">👶</div><h4>Baby Milestones</h4><ul><li>1 Month – Eye contact, reflexes</li><li>2 Months – Social smiling</li><li>4 Months – Laughing, head control</li><li>6 Months – Sitting with support</li><li>12 Months – First steps possible</li></ul></div>
+      </div>
+    </section>
+
+    <!-- ══ MOOD TRACKER ══ -->
+    <section id="sec-mood" class="sec">
+      <div class="sec-head">
+        <h2><i class="fa-solid fa-face-smile ic-purple"></i> Mood Tracker</h2>
+        <p>Daily emotional wellbeing check-in</p>
+      </div>
+      <div class="form-panel" style="max-width:580px">
+        <h4 style="margin-bottom:1rem">How are you feeling today?</h4>
+        <div class="mood-row">
+          <div class="mood-em" onclick="pickMood(5,this)" title="Great">😄</div>
+          <div class="mood-em" onclick="pickMood(4,this)" title="Good">🙂</div>
+          <div class="mood-em" onclick="pickMood(3,this)" title="Okay">😐</div>
+          <div class="mood-em" onclick="pickMood(2,this)" title="Sad">😢</div>
+          <div class="mood-em" onclick="pickMood(1,this)" title="Very Low">😰</div>
+        </div>
+        <div class="field-group" style="margin-top:1rem">
+          <label><i class="fa-solid fa-pen"></i> Notes (optional)</label>
+          <textarea id="mood-note" rows="3" placeholder="How do you feel? What's on your mind?"></textarea>
+        </div>
+        <button class="hh-btn" onclick="saveMood()"><i class="fa-solid fa-floppy-disk"></i> Save Mood</button>
+      </div>
+      <div id="mood-hist" class="mood-hist"></div>
+      <div id="ppd-banner" class="ppd-banner" style="display:none">
+        <i class="fa-solid fa-heart"></i>
+        <div><strong>We care about you 💗</strong><br/>You've been feeling low for several days. Please consider talking to a trusted person or healthcare provider. You're not alone.</div>
+      </div>
+    </section>
+
+    <!-- ══ DOCTOR CONSULTANCY ══ -->
+    <section id="sec-doctor" class="sec">
+      <div class="sec-head">
+        <h2><i class="fa-solid fa-user-doctor ic-teal"></i> Doctor Consultancy</h2>
+        <p>Book appointments and get guidance from specialists</p>
+      </div>
+      <!-- Specialty cards -->
+      <div class="spec-cards">
+        <div class="spec-card sc-pink" onclick="selectSpec('Gynecologist',this)">
+          <i class="fa-solid fa-venus"></i><span>Gynecologist</span>
+        </div>
+        <div class="spec-card sc-purple" onclick="selectSpec('PCOS Specialist',this)">
+          <i class="fa-solid fa-microscope"></i><span>PCOS Specialist</span>
+        </div>
+        <div class="spec-card sc-teal" onclick="selectSpec('Obstetrician',this)">
+          <i class="fa-solid fa-baby-carriage"></i><span>Obstetrician</span>
+        </div>
+        <div class="spec-card sc-rose" onclick="selectSpec('Mental Health',this)">
+          <i class="fa-solid fa-brain"></i><span>Mental Health</span>
+        </div>
+        <div class="spec-card sc-green" onclick="selectSpec('Nutritionist',this)">
+          <i class="fa-solid fa-salad"></i><span>Nutritionist</span>
+        </div>
+        <div class="spec-card sc-lavender" onclick="selectSpec('Pediatrician',this)">
+          <i class="fa-solid fa-baby"></i><span>Pediatrician</span>
+        </div>
+      </div>
+
+      <div class="form-panel" style="margin-top:1.5rem">
+        <h4 style="margin-bottom:1rem"><i class="fa-solid fa-calendar-plus"></i> Book Appointment</h4>
+        <div class="field-row">
+          <div class="field-group">
+            <label><i class="fa-solid fa-stethoscope"></i> Specialty</label>
+            <input type="text" id="doc-spec" placeholder="Select above or type" readonly/>
+          </div>
+          <div class="field-group">
+            <label><i class="fa-solid fa-calendar"></i> Preferred Date</label>
+            <input type="date" id="doc-date"/>
+          </div>
+        </div>
+        <div class="field-group">
+          <label><i class="fa-solid fa-clock"></i> Preferred Time</label>
+          <select id="doc-time">
+            <option value="">Select time</option>
+            <option>9:00 AM</option><option>10:00 AM</option><option>11:00 AM</option>
+            <option>12:00 PM</option><option>2:00 PM</option><option>3:00 PM</option>
+            <option>4:00 PM</option><option>5:00 PM</option>
+          </select>
+        </div>
+        <div class="field-group">
+          <label><i class="fa-solid fa-notes-medical"></i> Describe your symptoms / concern</label>
+          <textarea id="doc-symptoms" rows="3" placeholder="Please describe what you're experiencing..."></textarea>
+        </div>
+        <div class="field-group">
+          <label><i class="fa-solid fa-video"></i> Consultation Mode</label>
+          <div class="chip-wrap">
+            <span class="chip" onclick="toggleChip(this)" id="mode-online">Online (Video Call)</span>
+            <span class="chip" onclick="toggleChip(this)" id="mode-visit">In-Person Visit</span>
+            <span class="chip" onclick="toggleChip(this)" id="mode-phone">Phone Call</span>
+          </div>
+        </div>
+        <button class="hh-btn" onclick="bookAppointment()"><i class="fa-solid fa-calendar-check"></i> Book Appointment</button>
+      </div>
+
+      <!-- Appointment list -->
+      <div id="appt-list" class="appt-list">
+        <h4 style="margin-bottom:1rem"><i class="fa-solid fa-list-check"></i> My Appointments</h4>
+        <div id="appt-items"></div>
+        <p id="no-appt" class="no-data-msg"><i class="fa-solid fa-calendar-xmark"></i> No appointments booked yet.</p>
+      </div>
+
+      <!-- Emergency -->
+      <div class="emergency-box">
+        <div class="emg-icon"><i class="fa-solid fa-triangle-exclamation"></i></div>
+        <div>
+          <h4>Emergency? Go to hospital immediately if you have:</h4>
+          <div class="emg-symptoms">
+            <span>🩸 Heavy bleeding</span><span>🤰 Severe abdominal pain</span>
+            <span>🫁 Difficulty breathing</span><span>👁️ Sudden vision changes</span>
+            <span>🤯 Severe headache</span><span>🦵 Leg swelling/pain</span>
+          </div>
+          <a href="tel:108" class="emg-call"><i class="fa-solid fa-phone"></i> Call 108 – Emergency</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ ASHA WORKER ══ -->
+    <section id="sec-asha" class="sec">
+      <div class="sec-head">
+        <h2><i class="fa-solid fa-users-gear ic-purple"></i> ASHA Worker — Patient Monitor</h2>
+        <p>View, track and support your community patients</p>
+      </div>
+      <div class="asha-stats-row">
+        <div class="ast-card ast-pink"><i class="fa-solid fa-users"></i><div><strong id="at-total">0</strong><span>Total Patients</span></div></div>
+        <div class="ast-card ast-purple"><i class="fa-solid fa-triangle-exclamation"></i><div><strong id="at-high">0</strong><span>High Risk</span></div></div>
+        <div class="ast-card ast-teal"><i class="fa-solid fa-baby-carriage"></i><div><strong id="at-preg">0</strong><span>Pregnant</span></div></div>
+        <div class="ast-card ast-rose"><i class="fa-solid fa-heart"></i><div><strong id="at-post">0</strong><span>Postpartum</span></div></div>
+      </div>
+
+      <!-- Patient list (ASHA sees registered users) -->
+      <div class="form-panel">
+        <h4 style="margin-bottom:1rem"><i class="fa-solid fa-user-plus"></i> Add / Track Patient</h4>
+        <div class="field-row">
+          <div class="field-group"><label>Patient Name</label><input type="text" id="ap-name" placeholder="Full name"/></div>
+          <div class="field-group"><label>Age</label><input type="number" id="ap-age" placeholder="Age"/></div>
+        </div>
+        <div class="field-row">
+          <div class="field-group"><label>Village / Area</label><input type="text" id="ap-village" placeholder="Village name"/></div>
+          <div class="field-group"><label>Mobile</label><input type="tel" id="ap-mob" placeholder="+91 XXXXXXXXXX"/></div>
+        </div>
+        <div class="field-row">
+          <div class="field-group">
+            <label>Health Stage</label>
+            <select id="ap-stage">
+              <option value="menstrual">Menstrual Health</option>
+              <option value="pregnant">Pregnant</option>
+              <option value="postpartum">Postpartum</option>
+            </select>
+          </div>
+          <div class="field-group">
+            <label>Risk Level</label>
+            <select id="ap-risk">
+              <option value="low">Low Risk</option>
+              <option value="moderate">Moderate Risk</option>
+              <option value="high">High Risk</option>
+            </select>
+          </div>
+        </div>
+        <div class="field-group">
+          <label>Notes / Observations</label>
+          <textarea id="ap-notes" rows="2" placeholder="Any observations or notes about this patient"></textarea>
+        </div>
+        <button class="hh-btn" onclick="addPatient()"><i class="fa-solid fa-plus"></i> Add Patient</button>
+      </div>
+
+      <!-- Patient Details Table -->
+      <div class="patient-wrap">
+        <h4 style="margin-bottom:1rem"><i class="fa-solid fa-table"></i> Patient Records</h4>
+        <div class="pt-table-scroll">
+          <table class="pt-table">
+            <thead>
+              <tr><th>Name</th><th>Age</th><th>Village</th><th>Mobile</th><th>Stage</th><th>Risk</th><th>Notes</th><th>Action</th></tr>
+            </thead>
+            <tbody id="pt-tbody"></tbody>
+          </table>
+        </div>
+        <p id="no-pts" class="no-data-msg"><i class="fa-solid fa-users-slash"></i> No patients added yet.</p>
+      </div>
+
+      <!-- Registered Users visible to ASHA -->
+      <div class="reg-users-panel">
+        <h4 style="margin-bottom:1rem"><i class="fa-solid fa-eye"></i> Registered App Users (Visible to ASHA)</h4>
+        <div id="reg-users-list"></div>
+      </div>
+    </section>
+
+  </main><!-- end app-main -->
+</div><!-- end page-app -->
+
+<!-- Toast -->
+<div id="toast" class="toast"></div>
+
+<!-- ░░░ CHATBOT ░░░ -->
+<button class="chatbot-fab" id="chatbot-fab" onclick="toggleChatbot()" title="HerHealth Assistant">
+  <i class="fa-solid fa-comments"></i>
+  <span class="fab-label">Ask HerHealth</span>
+  <span class="fab-dot"></span>
+</button>
+
+<div class="chatbot-panel" id="chatbot-panel">
+  <div class="cb-header">
+    <div class="cb-header-left">
+      <div class="cb-avatar"><i class="fa-solid fa-heart-pulse"></i></div>
+      <div>
+        <div class="cb-name">HerHealth Assistant</div>
+        <div class="cb-status"><span class="cb-online"></span> Always here for you</div>
+      </div>
+    </div>
+    <button class="cb-close" onclick="toggleChatbot()"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+
+  <div class="cb-messages" id="cb-messages">
+    <div class="cb-msg bot">
+      <div class="cb-bubble">
+        👋 Hi! I'm your <strong>HerHealth Assistant</strong>. I can help you with:<br/><br/>
+        🩸 PCOS symptoms &amp; stages<br/>
+        🤰 Pregnancy questions<br/>
+        💊 Diet &amp; medication tips<br/>
+        🧠 Postpartum &amp; mental health<br/>
+        🩺 When to see a doctor<br/><br/>
+        <em>Type your question below or tap a quick option!</em>
+      </div>
+    </div>
+    <div class="cb-quick-replies" id="cb-quick">
+      <button onclick="sendQuick('What are PCOS symptoms?')">PCOS symptoms</button>
+      <button onclick="sendQuick('Am I at risk of PCOS?')">PCOS risk check</button>
+      <button onclick="sendQuick('What to eat for PCOS?')">PCOS diet tips</button>
+      <button onclick="sendQuick('Signs of pregnancy')">Pregnancy signs</button>
+      <button onclick="sendQuick('Postpartum depression symptoms')">Postpartum help</button>
+      <button onclick="sendQuick('When should I see a doctor?')">See a doctor?</button>
+    </div>
+  </div>
+
+  <div class="cb-input-row">
+    <input type="text" id="cb-input" placeholder="Ask me anything about your health…" onkeydown="if(event.key==='Enter')sendChat()"/>
+    <button class="cb-send" onclick="sendChat()"><i class="fa-solid fa-paper-plane"></i></button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
