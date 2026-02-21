@@ -10,10 +10,14 @@ Postpartum recovery tips and mood tracking
 Secure login for users and ASHA workers, with multilingual support
 Tech Stack: HTML, CSS, JavaScript (Frontend), Node.js + Express.js (Backend), MongoDB (Database)
 Benefit: Covers the full reproductive lifecycle, supports preventive care, and helps women stay informed and healthy.
+
+
 **Tech Stack**
 Frontend: HTML, CSS, JavaScript
 Backend: Node.js, Express.js
 Database: MongoDB
+
+
 **Features**
 PCOS & Menstrual Health Tracker
 * Track period cycle, flow, and symptoms
@@ -36,6 +40,7 @@ Special Features
 * Secure login system for users and ASHA workers
 * Smart dashboard: stage, alerts, risk status
 * chatbot for FAQs
+  
   
 **HerHealth Project – Installation Checklist**
 Node.js 
@@ -62,11 +67,114 @@ npm install
 node server.js
 open in browser http://localhost:3000
 
+
 **Screenshots**
 <img width="1888" height="901" alt="homepage" src="https://github.com/user-attachments/assets/3e2b1657-814d-49cc-a518-639e1823d62d" />
 <img width="1919" height="891" alt="demo3" src="https://github.com/user-attachments/assets/e47ff181-a651-4c50-99d8-fca9e15d6d85" />
 <img width="1888" height="897" alt="demo2" src="https://github.com/user-attachments/assets/c1c7c266-00a7-4aa2-833b-c52a23d50a32" />
 <img width="1860" height="873" alt="demo1" src="https://github.com/user-attachments/assets/76646965-1d83-4fe6-ab20-6751306f068e" />
 
+
 **Videos**
 https://drive.google.com/file/d/1Sfo9b1TKgUx2_3Tb7M3pDNFomMDXT5XR/view?usp=sharing
+
+**System architechture**
+[ User / Browser ]
+        |
+        v
+[ Frontend: HTML, CSS, JS ]
+        |
+        v
+[ Backend: Node.js + Express + Mongoose ]
+        |
+        v
+[ Database: MongoDB ]
+
+
+**API docs**
+1. Add User Data
+
+Endpoint: POST /add
+
+Purpose: Save user information to the database.
+
+Request Body (JSON):
+
+{
+  "name": "Devika"
+}
+
+Response (JSON):
+
+{
+  "message": "Data saved successfully!"
+}
+2. Get All Users
+
+Endpoint: GET /users
+
+Purpose: Retrieve all user data from MongoDB.
+
+Request: No body required.
+
+Response (JSON):
+
+[
+  { "_id": "640d...", "name": "Devika" },
+  { "_id": "640d...", "name": "Anjali" }
+]
+3. Update User
+
+Endpoint: PUT /update/:id
+
+Purpose: Update a user’s name using their unique ID.
+
+Request Body (JSON):
+
+{
+  "name": "New Name"
+}
+
+Response (JSON):
+
+{
+  "message": "User updated successfully!"
+}
+4. Delete User
+
+Endpoint: DELETE /delete/:id
+
+Purpose: Remove a user from the database by ID.
+
+Request: No body required.
+
+Response (JSON):
+
+{
+  "message": "User deleted successfully!"
+}
+5. Notes
+
+All endpoints return JSON.
+
+Backend server runs on http://localhost:3000
+.
+
+MongoDB database name: mydb.
+
+Collection name: users.
+
+
+**Team Members**
+Devika S — Frontend & UI/UX Design
+Anusree S — Backend & Database Integration
+
+**LIcense info**
+MIT License
+
+Copyright (c) 2026 Devika S.
+
+You are free to use, copy, modify, and distribute this project. 
+Include this notice in all copies. The project is provided "as is" without warranty.
+
+Note: MongoDB Community Edition is under SSPL; this project does not modify MongoDB.
