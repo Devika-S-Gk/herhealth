@@ -3,7 +3,9 @@
 
 **PROJECT DESCRIPTION**
 HerHealth – Women’s Health Web App
+
 Type: Web Application
+
 Problem: Women often face challenges managing reproductive health, including irregular periods, PCOS/PCOD, pregnancy, and postpartum care.
 
 Solution: HerHealth is a smart web app that provides:
@@ -19,7 +21,9 @@ Benefit: Covers the full reproductive lifecycle, supports preventive care, and h
 
 **Tech Stack**
 Frontend: HTML, CSS, JavaScript
+
 Backend: Node.js, Express.js
+
 Database: MongoDB
 
 
@@ -29,17 +33,20 @@ PCOS & Menstrual Health Tracker
 * PCOS/PCOD risk assessment (Early / Moderate / High)
 * Personalized diet and workout suggestions
 * Alerts for doctor consultation
+  
 Pregnancy Tracker
 * Week-by-week guidance
 * Baby size comparison (fruit visual idea)
 * Nutrition reminders and vaccination schedule
 * Danger symptom alerts
 * Kick counter & daily checklist
+  
 Postpartum Care
 * Recovery guidance and breastfeeding tips
 * Mood tracker for postpartum depression
 * Baby growth milestone tracking
 * Sleep tracker and parenting tips
+  
 Special Features
 * Multilingual support (English, Malayalam, Hindi)
 * Secure login system for users and ASHA workers
