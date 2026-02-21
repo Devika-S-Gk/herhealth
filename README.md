@@ -20,6 +20,7 @@ Benefit: Covers the full reproductive lifecycle, supports preventive care, and h
 
 
 **Tech Stack**
+
 Frontend: HTML, CSS, JavaScript
 
 Backend: Node.js, Express.js
@@ -28,6 +29,7 @@ Database: MongoDB
 
 
 **Features**
+
 PCOS & Menstrual Health Tracker
 * Track period cycle, flow, and symptoms
 * PCOS/PCOD risk assessment (Early / Moderate / High)
@@ -85,6 +87,7 @@ open in browser http://localhost:3000
 
 
 **Screenshots**
+
 <img width="1888" height="901" alt="homepage" src="https://github.com/user-attachments/assets/3e2b1657-814d-49cc-a518-639e1823d62d" />
 <img width="1919" height="891" alt="demo3" src="https://github.com/user-attachments/assets/e47ff181-a651-4c50-99d8-fca9e15d6d85" />
 <img width="1888" height="897" alt="demo2" src="https://github.com/user-attachments/assets/c1c7c266-00a7-4aa2-833b-c52a23d50a32" />
@@ -92,9 +95,11 @@ open in browser http://localhost:3000
 
 
 **Videos**
+
 https://drive.google.com/file/d/1Sfo9b1TKgUx2_3Tb7M3pDNFomMDXT5XR/view?usp=sharing
 
 **System architechture**
+
 [ User / Browser ]
         |
         v
@@ -108,6 +113,7 @@ https://drive.google.com/file/d/1Sfo9b1TKgUx2_3Tb7M3pDNFomMDXT5XR/view?usp=shari
 
 
 **API docs**
+
 1. Add User Data
 
 Endpoint: POST /add
@@ -125,6 +131,7 @@ Response (JSON):
 {
   "message": "Data saved successfully!"
 }
+
 2. Get All Users
 
 Endpoint: GET /users
@@ -139,6 +146,7 @@ Response (JSON):
   { "_id": "640d...", "name": "Devika" },
   { "_id": "640d...", "name": "Anjali" }
 ]
+
 3. Update User
 
 Endpoint: PUT /update/:id
@@ -156,6 +164,7 @@ Response (JSON):
 {
   "message": "User updated successfully!"
 }
+
 4. Delete User
 
 Endpoint: DELETE /delete/:id
@@ -169,6 +178,7 @@ Response (JSON):
 {
   "message": "User deleted successfully!"
 }
+
 5. Notes
 
 All endpoints return JSON.
@@ -182,10 +192,13 @@ Collection name: users.
 
 
 **Team Members**
+
 Devika S — Frontend & UI/UX Design
+
 Anusree S — Backend & Database Integration
 
 **LIcense info**
+
 MIT License
 
 Copyright (c) 2026 Devika S.
