@@ -20,7 +20,7 @@ Tech Stack: HTML, CSS, JavaScript (Frontend), Node.js + Express.js (Backend), Mo
 Benefit: Covers the full reproductive lifecycle, supports preventive care, and helps women stay informed and healthy.
 
 
-**Tech Stack**
+**TECH STACK**
 
 Frontend: HTML, CSS, JavaScript
 
@@ -29,7 +29,7 @@ Backend: Node.js, Express.js
 Database: MongoDB
 
 
-**Features**
+**FEATURES LIST**
 
 PCOS & Menstrual Health Tracker
 * Track period cycle, flow, and symptoms
@@ -57,7 +57,7 @@ Special Features
 * chatbot for FAQs
   
   
-**HerHealth Project – Installation Checklist**
+**INSTALLATION COMMANDS**
 
 Node.js 
 MongoDB Community Server 
@@ -82,12 +82,15 @@ cd herhealth
 
 # Install dependencies
 npm install
-**Run commands**
+
+
+**RUN COMMANDS**
+
 node server.js
 open in browser http://localhost:3000
 
 
-**Screenshots**
+**SCREENSHOTS**
 
 <img width="1888" height="901" alt="homepage" src="https://github.com/user-attachments/assets/3e2b1657-814d-49cc-a518-639e1823d62d" />
 <img width="1919" height="891" alt="demo3" src="https://github.com/user-attachments/assets/e47ff181-a651-4c50-99d8-fca9e15d6d85" />
@@ -95,12 +98,12 @@ open in browser http://localhost:3000
 <img width="1860" height="873" alt="demo1" src="https://github.com/user-attachments/assets/76646965-1d83-4fe6-ab20-6751306f068e" />
 
 
-**Videos**
+**DEMO VIDEO LINK**
 
 https://drive.google.com/file/d/1Sfo9b1TKgUx2_3Tb7M3pDNFomMDXT5XR/view?usp=sharing
 
-**System architechture**
-
+**ARCHITECHTURE DIAGRAM**
+e
 [ User / Browser ]
 
         |
@@ -116,7 +119,7 @@ https://drive.google.com/file/d/1Sfo9b1TKgUx2_3Tb7M3pDNFomMDXT5XR/view?usp=shari
 [ Database: MongoDB ]
 
 
-**API docs**
+**API DOCS**
 
 1. Add User Data
 
@@ -195,13 +198,13 @@ MongoDB database name: mydb.
 Collection name: users.
 
 
-**Team Members**
+**TEAM MEMBERS**
 
 Devika S — Frontend & UI/UX Design
 
 Anusree S — Backend & Database Integration
 
-**License info**
+**LICENSE INFO**
 
 MIT License
 
