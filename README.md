@@ -55,18 +55,22 @@ Special Features
   
   
 **HerHealth Project – Installation Checklist**
+
 Node.js 
 MongoDB Community Server 
 MongoDB Compass 
 Visual Studio Code 
 Node.js packages – Backend dependencies (run inside HerHealth folder):
+
 Bash
 npm install express
 npm install mongoose
 npm install body-parser
 npm install bcrypt
+
 Browser – Open frontend:
 http://localhost:3000/index.html
+
 # Clone repository
 git clone <your-repo-link>
 
