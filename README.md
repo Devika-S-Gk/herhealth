@@ -61,7 +61,12 @@ npm install
 **Run commands**
 node server.js
 open in browser http://localhost:3000
+
 **Screenshots**
 <img width="1888" height="901" alt="homepage" src="https://github.com/user-attachments/assets/3e2b1657-814d-49cc-a518-639e1823d62d" />
-<img width="1888" height="901" alt="homepage" src="https://github.com/user-attachments/assets/3e2b1657-814d-49cc-a518-639e1823d62d" />
+<img width="1919" height="891" alt="demo3" src="https://github.com/user-attachments/assets/e47ff181-a651-4c50-99d8-fca9e15d6d85" />
+<img width="1888" height="897" alt="demo2" src="https://github.com/user-attachments/assets/c1c7c266-00a7-4aa2-833b-c52a23d50a32" />
+<img width="1860" height="873" alt="demo1" src="https://github.com/user-attachments/assets/76646965-1d83-4fe6-ab20-6751306f068e" />
+
+**Videos**
 
