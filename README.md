@@ -101,12 +101,15 @@ https://drive.google.com/file/d/1Sfo9b1TKgUx2_3Tb7M3pDNFomMDXT5XR/view?usp=shari
 **System architechture**
 
 [ User / Browser ]
+
         |
         v
 [ Frontend: HTML, CSS, JS ]
+
         |
         v
 [ Backend: Node.js + Express + Mongoose ]
+
         |
         v
 [ Database: MongoDB ]
@@ -197,7 +200,7 @@ Devika S — Frontend & UI/UX Design
 
 Anusree S — Backend & Database Integration
 
-**LIcense info**
+**License info**
 
 MIT License
 
