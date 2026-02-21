@@ -50,3 +50,18 @@ npm install body-parser
 npm install bcrypt
 Browser – Open frontend:
 http://localhost:3000/index.html
+# Clone repository
+git clone <your-repo-link>
+
+# Move into project folder
+cd herhealth
+
+# Install dependencies
+npm install
+**Run commands**
+node server.js
+open in browser http://localhost:3000
+**Screenshots**
+<img width="1888" height="901" alt="homepage" src="https://github.com/user-attachments/assets/3e2b1657-814d-49cc-a518-639e1823d62d" />
+<img width="1888" height="901" alt="homepage" src="https://github.com/user-attachments/assets/3e2b1657-814d-49cc-a518-639e1823d62d" />
+
